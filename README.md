@@ -1,8 +1,75 @@
-# ValidatingZuzu.Git.Hub.io
 <!DOCTYPE html>
 <html>
 <head>
     <title>OAuth URLs and Data Deletion</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        #urlForm {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            display: block;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 0 auto;
+        }
+
+        #deauthUrl, #dataDeletionUrl {
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        #deauthUrl:before, #dataDeletionUrl:before {
+            content: '- ';
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>OAuth URLs and Data Deletion</h1>
